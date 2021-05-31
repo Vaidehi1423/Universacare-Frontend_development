@@ -1,0 +1,55 @@
+.notification__bar{
+  padding-top: 33px;
+  padding-bottom: 31px;
+}
+
+.notification__bar__logo{
+  margin-left: 63px;
+}
+
+.phone{
+  margin-right: 33px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0047AB;
+}
+
+.nav-link{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #2B2D42;
+}
+
+.navbar-light .navbar-nav .active>
+.nav-link, .navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #0047AB;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+li.nav-item {
+  border-right: 1.5px solid #D7D4E2;
+}
+
+li.nav-item:nth-last-child(1) {
+  border-right: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .notification__bar{
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .notification__bar__logo{
+    margin-left: 16px;
+  }
+  li.nav-item {
+    border-right: none;
+  }
+}

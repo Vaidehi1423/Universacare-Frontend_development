@@ -1,0 +1,26 @@
+.chap__accreditation{
+  margin: 94px 0px 93px 0px
+}
+
+.chap__accreditation h3{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.005em;
+}
+
+.chap__accreditation p{
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: -0.007em;
+}
+
+.chap__accreditation__text{
+  text-align: start;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  .chap__accreditation__mbl{
+    text-align: center
+  }
+}
